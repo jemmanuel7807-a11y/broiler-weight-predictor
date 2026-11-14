@@ -1,0 +1,22 @@
+{
+  "project_title": "Development of a Machine Learning-Based Predictive System for Broiler Chicken Weight",
+  "selected_model": "Random Forest Regressor",
+  "selection_basis": "Highest mean R-squared in leave-one-batch-out validation",
+  "features": [
+    "Bird Age (days)",
+    "Feed Intake (g/bird/day)",
+    "Water Intake (mL/bird/day)",
+    "Temperature (°C)",
+    "Humidity (%)",
+    "Stocking Density (birds/m²)",
+    "Breed Type"
+  ],
+  "target": "Body Weight (kg)",
+  "records": 515,
+  "reconstructed_batches": 11,
+  "random_state": 42,
+  "model_file": "broiler_weight_prediction_pipeline.joblib",
+  "model_type": "sklearn",
+  "sklearn_version": "1.6.1",
+  "observed_ranges": {}
+}

@@ -1,0 +1,18 @@
+{
+  "selected_model": "Random Forest Regressor",
+  "selection_basis": "Highest mean R-squared in leave-one-batch-out validation",
+  "model_file": "broiler_weight_prediction_pipeline.joblib",
+  "model_type": "sklearn",
+  "records": 515,
+  "reconstructed_batches": 11,
+  "features": [
+    "Bird Age (days)",
+    "Feed Intake (g/bird/day)",
+    "Water Intake (mL/bird/day)",
+    "Temperature (°C)",
+    "Humidity (%)",
+    "Stocking Density (birds/m²)",
+    "Breed Type"
+  ],
+  "observed_ranges": {}
+}
